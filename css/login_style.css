@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Rubik';
+}
+
+body {
+    background-color: #F7F9FA;
+}
+
+div.barra {
+    top: 0;
+    left: 0;
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 25%;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+    box-shadow: 2.941vh 2.941vh 2.941vh rgba(56, 42, 225, 0.3);
+    background: rgb(42, 25, 236);
+    background: linear-gradient(0deg, rgba(42, 25, 236, 1) 25%, rgba(227, 207, 243, 1) 75%);
+}
+
+a img {
+    margin-top: 38%;
+    max-width: 100%;
+}
+
+h2.bv {
+    margin-top: 38%;
+    font-size: 4.706vh;
+    font-family: 'rubik';
+    color: #293845;
+}
+
+p.descricao {
+    margin-top: 38%;
+    font-size: 3.824vh;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: #000000;
+}
+
+a.criar_conta {
+    margin-top: 38%;
+    font-size: 3.529vh;
+    font-weight: 600;
+    border-radius: 0.588vh;
+    font-family: 'Montserrat';
+    transition: background 0.3s;
+    transition: border-color 0.3.5s;
+    color: #ffffff;
+    background-color: #2a19ec;
+    border: 1.103vh solid #2a19ec;
+}
+
+a.criar_conta:hover {
+    background-color: #766cf1;
+    border-color: #766cf1;
+}
+
+img.img_icon {
+    display: flex;
+    margin-top: 3.5%;
+    margin-left: 44%;
+    max-width: 13%;
+}
+
+h1.login {
+    margin-left: 57.5%;
+    margin-top: -11%;
+    margin-bottom: 29.412vh;
+    font-size: 14.706vh;
+    color: #293845;
+}
+
+p.e {
+    font-size: 4.118vh;
+    margin-bottom: 0.6%;
+    margin-left: 2%;
+    font-weight: 300;
+    font-family: 'rubik';
+}
+
+div.barra_email {
+    margin-top: -7%;
+    margin-left: 40%;
+}
+
+input.email {
+    width: 75%;
+    padding-right: 8.824vh;
+    padding-left: 2.206vh;
+    font-size: 2.941vh;
+    border-radius: 1.176vh;
+    border: 0.397vh solid;
+    background-color: #FFFFFF;
+    border-color: #d6d2e7;
+}
+
+p.s {
+    font-size: 4.118vh;
+    margin-bottom: 0.6%;
+    margin-left: 2%;
+    font-weight: 300;
+    font-family: 'rubik';
+}
+
+div.barra_senha {
+    margin-top: 2.5%;
+    margin-left: 40%;
+    position: relative;
+}
+
+input.senha {
+    width: 75%;
+    margin-bottom: 10%;
+    padding-right: 8.824vh;
+    padding-left: 2.206vh;
+    font-size: 2.941vh;
+    border-radius: 1.176vh;
+    border: 0.397vh solid;
+    background-color: #FFFFFF;
+    border-color: #d6d2e7;
+}
+
+div i {
+    cursor: pointer;
+    position: absolute;
+    font-size: 3.676vh;
+    left: 84.559vh;
+    color: #777777;
+}
+
+a.entrar {
+    margin-left: 41.2%;
+    font-size: 3.529vh;
+    font-weight: 600;
+    border-radius: 0.588vh;
+    font-family: 'Montserrat';
+    transition: background 0.3s;
+    transition: border-color 0.3.5s;
+    box-shadow: 1.471vh 2.941vh 4.412vh rgba(56, 42, 225, 0.3);
+    color: #ffffff;
+    background-color: #2a19ec;
+    border: 1.103vh solid #2a19ec;
+}
+
+a.entrar:hover {
+    background-color: #766cf1;
+    border-color: #766cf1;
+}
